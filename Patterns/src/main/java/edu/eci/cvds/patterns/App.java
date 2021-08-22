@@ -9,9 +9,9 @@ public class App
     public static void main( String[] args )
     {
         System.out.println("");
-        System.out.println( "Hello World!");
+        System.out.print( "Hello World! \nHello ");
         for(String i: args){
-            System.out.println("hello"+i);
+                System.out.print(i+" ");
         }
         System.out.println("");
     }
