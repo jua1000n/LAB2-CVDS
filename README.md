@@ -17,6 +17,6 @@ Los plugins son un fragmento de código que amplia las funciones de una herramie
 metas. Las metas ejecutan tareas de construcción como: compilar el proyecto, empaquetarlo e implementarlo en un
 servidor local o remoto.
  
--**Qué es y para qué sirve el repositorio central de maven:**
+- **Qué es y para qué sirve el repositorio central de maven:**
 Es la ubicación predeterminada para Maven donde se encuentran las librerias de uso general y en la cual permite
 descargar todas las bibliotecas de dependencia del proyecto para su uso.
