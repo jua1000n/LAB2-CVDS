@@ -29,4 +29,7 @@ servidor local o remoto.
 Es la ubicación predeterminada para Maven donde se encuentran las librerias de uso general y la cual permite
 descargar todas las bibliotecas de dependencia del proyecto para su uso.
 
-##Ejercicio de las Figuras
+## Ejercicio de las Figuras
+### Crear unproyecto con maven
+
+- Buscar cómo se crea un proyecto maven con ayuda de los arquetipos (archetypes)
