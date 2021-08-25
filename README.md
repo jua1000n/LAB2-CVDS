@@ -7,9 +7,9 @@ Que es un software que se usa para la gestion y construccion de proyectos java, 
 
 - **Ciclo de vida de la construcción:**
  Cada proyecto de Maven consta de tres ciclos de vida independientes
- 1. Ciclo de vida limpio: su finalidad es elimina la salida de la compilación en el directorio de compilación. 
- 2. Ciclo de vida predeterminado: responsable del despliegue del proyecto.
- 3. Ciclo de vida del sitio: os complementos de sitios web de Maven se utilizan generalmente para crear nuevos
+   1. Ciclo de vida limpio: su finalidad es elimina la salida de la compilación en el directorio de compilación. 
+   2. Ciclo de vida predeterminado: responsable del despliegue del proyecto.
+   3. Ciclo de vida del sitio: os complementos de sitios web de Maven se utilizan generalmente para crear nuevos
 documentos, crear informes, implementar sitios web.
  
 - **Para qué sirven los plugins:**
