@@ -28,3 +28,5 @@ servidor local o remoto.
 - **Qué es y para qué sirve el repositorio central de maven:**
 Es la ubicación predeterminada para Maven donde se encuentran las librerias de uso general y la cual permite
 descargar todas las bibliotecas de dependencia del proyecto para su uso.
+
+##Ejercicio de las Figuras
