@@ -65,7 +65,7 @@ Ejecute múltiples veces la clase ShapeMain, usando el plugin exec de maven con 
 
 - Parámetro Hexagon
 
-![ParametroHexagon](hhttps://github.com/jua1000n/LAB2-CVDS/blob/main/resources/ParametroHexagon.png)
+![ParametroHexagon](https://github.com/jua1000n/LAB2-CVDS/blob/main/resources/ParametroHexagon.png)
 
 - **¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?**: El unico que se llega a ejecutar de manera correcta es el ultimo "Hexagon", debido a que es el unico que cumple los parametros que se establecieron.
 
