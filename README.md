@@ -48,6 +48,25 @@ descargar todas las bibliotecas de dependencia del proyecto para su uso.
 - Ejecutar la clase con su nombre y apellido como parámetro. ¿Qué sucedió?: En este caso si no se tenia en cuenta que es un arreglo muestra el ultimo valor que encuentre en el arreglo.
 
 ### Hacer el esqueleto de la aplicacion
+
+Ejecute múltiples veces la clase ShapeMain, usando el plugin exec de maven con los siguientes parámetros y verifique la salida en consola para cada una:
+
+- Sin parámetros
+
+ ![SinParametro](https://github.com/jua1000n/LAB2-CVDS/blob/main/resources/SinParametro.png)
+
+- Parámetro: qwerty
+
+![Parametroqwerty](https://github.com/jua1000n/LAB2-CVDS/blob/main/resources/Parametroqwerty.png)
+
+Parámetro: pentagon
+
+![Parametropentagon](https://github.com/jua1000n/LAB2-CVDS/blob/main/resources/Parametropentagon.png)
+
+- Parámetro Hexagon
+
+![ParametroHexagon](hhttps://github.com/jua1000n/LAB2-CVDS/blob/main/resources/ParametroHexagon.png)
+
 - **¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?**: El unico que se llega a ejecutar de manera correcta es el ultimo "Hexagon", debido a que es el unico que cumple los parametros que se establecieron.
 
 
