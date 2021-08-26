@@ -59,7 +59,7 @@ Ejecute múltiples veces la clase ShapeMain, usando el plugin exec de maven con 
 
 ![Parametroqwerty](https://github.com/jua1000n/LAB2-CVDS/blob/main/resources/Parametroqwerty.png)
 
-Parámetro: pentagon
+- Parámetro: pentagon
 
 ![Parametropentagon](https://github.com/jua1000n/LAB2-CVDS/blob/main/resources/Parametropentagon.png)
 
