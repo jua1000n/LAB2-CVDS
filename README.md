@@ -32,4 +32,23 @@ descargar todas las bibliotecas de dependencia del proyecto para su uso.
 ## Ejercicio de las Figuras
 ### Crear unproyecto con maven
 
-- Buscar cómo se crea un proyecto maven con ayuda de los arquetipos (archetypes)
+- **Buscar cómo se crea un proyecto maven con ayuda de los arquetipos (archetypes)**: Para crear un proyecto maven usamos la ayuda de los arquetipos en este caso el comando usado es:
+    > **mvn archetype.generate**
+- Busque cómo ejecutar desde línea de comandos el objetivo "generate" del plugin "archetype",  con los siguientes parámetros:
+  - Grupo: edu.eci.cvds
+  - Id del Artefacto: Patterns
+  - Paquete: edu.eci.cvds.patterns
+  - archetypeArtifactId: maven-archetype-quickstart
+  > mvn archetype:generate -DgroupId=edu.eci.cvds -DartifactId=Patterns -Dpackage=edu.eci.cvds.patterns -DarchetypeArtifactId=maven-archetype-quickstart
+ 
+### Compilar y ejecutar
+- **Busque cuál es el objetivo del parámetro "package" y qué otros parámetros se podrían enviar al comando mvn**: mvn package empaqueta el proyecto (en caso que sea un proyecto java simple genera un jar, si es un web genera un war).
+- Busque cómo ejecutar desde línea de comandos, un proyecto maven y verifique la salida cuando se ejecuta con la clase App.java como parámetro en "mainClass":
+  > mvn exec:Java -Dexec.mainClass="edu.eci.cvds.patterns.App
+- Ejecutar la clase con su nombre y apellido como parámetro. ¿Qué sucedió?: En este caso si no se tenia en cuenta que es un arreglo muestra el ultimo valor que encuentre en el arreglo.
+
+### Hacer el esqueleto de la aplicacion
+- **¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?**: El unico que se llega a ejecutar de manera correcta es el ultimo "Hexagon", debido a que es el unico que cumple los parametros que se establecieron.
+
+
+Para que sirve **gitignore**: Es un archivo de texto que le dice a git que archivos o carpetas ignorar en un proyecto, generalmente se coloca en el directorio raiz de un proyecto.
